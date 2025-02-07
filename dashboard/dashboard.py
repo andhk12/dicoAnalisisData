@@ -3,8 +3,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 
-day_df = pd.read_csv("D:\Study\Dicoding\latihan1\Bike-sharing-dataset\day.csv") 
-hour_df = pd.read_csv("D:\Study\Dicoding\latihan1\Bike-sharing-dataset\hour.csv")
+day_df = pd.read_csv("data/day.csv") 
+hour_df = pd.read_csv("data/hour.csv")
 
 
 st.set_page_config(page_title="Bike Sharing Dashboard", layout="wide")
